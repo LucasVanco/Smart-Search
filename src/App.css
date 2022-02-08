@@ -1,0 +1,29 @@
+.App {
+  /*text-align: center;*/
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px;
+}
+
+#history {
+  margin-top: 20px;
+}
+
+#history > span > .searched {
+  text-decoration: underline;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+#history > span > .searched:hover {
+  color: #3F51B5;
+}
+
+/*
+** Force CardAction at the bottom of the card regardless of the height
+ */
+.MuiCard-root{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
